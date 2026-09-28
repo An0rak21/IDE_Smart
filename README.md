@@ -1,4 +1,4 @@
-# PharmaIDE (nom provisoire)
+# IDE Smart
 
 Plateforme de révision en pharmacologie pour les étudiants en soins infirmiers.
 Ce dépôt contient le **sprint 1 : l'infrastructure**, sans contenu pédagogique.
