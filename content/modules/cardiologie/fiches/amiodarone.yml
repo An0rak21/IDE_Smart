@@ -1,0 +1,47 @@
+slug: amiodarone
+title: Amiodarone
+classe: Antiarythmiques
+status: brouillon
+updated: 2026-09-28
+lesson: antiarythmiques
+molecules:
+  - dci: Amiodarone
+    specialites: [CORDARONE®]
+mecanisme: >-
+  Antiarythmique de classe III : bloque les canaux potassiques et allonge la repolarisation
+  (QT long). Très riche en iode, demi-vie de plusieurs semaines.
+indications:
+  - Fibrillation atriale (réduction ou prévention des récidives)
+  - Troubles du rythme ventriculaire
+contre_indications:
+  - Bradycardie importante, bloc auriculo-ventriculaire non appareillé
+  - Dysthyroïdie
+  - Allongement du QT, association à certains médicaments torsadogènes
+  - Grossesse et allaitement
+effets_indesirables:
+  - Bradycardie, bloc AV, QT long, torsades de pointes
+  - Hypo- ou hyperthyroïdie
+  - Pneumopathie, fibrose pulmonaire
+  - Photosensibilisation, coloration gris-bleuté de la peau
+  - Dépôts cornéens, neuropathie optique
+  - Hépatite
+surveillance:
+  - FC, PA, ECG (QT) au début et à chaque modification
+  - TSH et bilan hépatique avant, puis tous les 6 mois
+  - Kaliémie
+  - Toux, dyspnée
+  - INR si AVK associé
+interactions:
+  - AVK (hausse de l'INR)
+  - Digoxine (hausse de la digoxinémie)
+  - Simvastatine (risque musculaire)
+  - Bêtabloquants, vérapamil, diltiazem (bradycardie)
+  - Autres médicaments qui allongent le QT
+education:
+  - Écran total et vêtements couvrants, y compris après l'arrêt
+  - Signaler toux, essoufflement, fatigue, variation de poids, troubles visuels
+  - Aucun autre médicament sans avis
+a_retenir:
+  - Thyroïde, poumon, peau, yeux, foie, QT
+  - IV dans du glucosé 5 % exclusivement, voie centrale de préférence
+  - Effets et interactions persistent des semaines après l'arrêt

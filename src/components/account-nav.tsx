@@ -4,7 +4,7 @@ export function AccountNav({
   current,
   isAdmin,
 }: {
-  current: "espace" | "calculs" | "compte" | "admin";
+  current: "espace" | "modules" | "calculs" | "compte" | "admin";
   isAdmin?: boolean;
 }) {
   const link = (href: string, key: typeof current, label: string) => (
@@ -19,6 +19,7 @@ export function AccountNav({
   return (
     <nav aria-label="Mon compte" className="flex flex-wrap items-center gap-1">
       {link("/espace", "espace", "Mon espace")}
+      {link("/modules", "modules", "Modules")}
       {link("/calculs", "calculs", "Calculs de doses")}
       {link("/compte", "compte", "Compte et abonnement")}
       {isAdmin ? link("/admin", "admin", "Administration") : null}

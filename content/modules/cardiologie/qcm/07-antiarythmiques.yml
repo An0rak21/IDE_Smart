@@ -1,0 +1,110 @@
+status: brouillon
+questions:
+  - ref: cardio-aar-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: antiarythmiques
+    prompt: Dans quel soluté diluer l'amiodarone IV ?
+    options:
+      - label: Du glucosé 5 % exclusivement
+        correct: true
+      - label: Du NaCl 0,9 %
+      - label: Du Ringer lactate
+      - label: Indifféremment l'un ou l'autre
+    explanation: >-
+      L'amiodarone IV se dilue uniquement dans du glucosé 5 %, de préférence sur une voie
+      centrale car elle est veinotoxique.
+
+  - ref: cardio-aar-002
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: antiarythmiques
+    prompt: Quels examens surveillent un traitement par amiodarone ?
+    options:
+      - label: TSH
+        correct: true
+      - label: Bilan hépatique
+        correct: true
+      - label: ECG avec mesure du QT
+        correct: true
+      - label: Glycémie à jeun mensuelle
+    explanation: >-
+      L'amiodarone touche la thyroïde (iode), le foie et le cœur (QT long). TSH et bilan
+      hépatique avant le traitement puis tous les 6 mois, ECG au début et à chaque modification,
+      kaliémie.
+
+  - ref: cardio-aar-003
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: antiarythmiques
+    prompt: Quel trouble ionique favorise le plus les torsades de pointes ?
+    options:
+      - label: L'hypokaliémie
+        correct: true
+      - label: L'hypernatrémie
+      - label: L'hypercalcémie
+      - label: L'hyperkaliémie
+    explanation: >-
+      Les torsades surviennent sur un QT long, favorisées par l'hypokaliémie, l'hypomagnésémie et
+      la bradycardie. D'où la kaliémie avant d'administrer un médicament qui allonge le QT.
+
+  - ref: cardio-aar-004
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: antiarythmiques
+    prompt: Quand prélever une digoxinémie ?
+    options:
+      - label: Au moins 6 à 8 heures après la prise, idéalement juste avant la suivante
+        correct: true
+      - label: Juste après la prise
+      - label: Une heure après la prise
+      - label: N'importe quand, cela ne change rien
+    explanation: >-
+      Un prélèvement trop proche de la prise surestime la concentration. On prélève au moins 6
+      à 8 heures après, idéalement juste avant la prise suivante.
+
+  - ref: cardio-aar-005
+    version: 1
+    type: case
+    level: 3
+    free: false
+    lesson: antiarythmiques
+    context: >-
+      M. F., 84 ans, est traité par digoxine et furosémide. Depuis deux jours, il a des nausées,
+      mange peu et dit voir « tout un peu jaune ». FC 48/min, irrégulière.
+    prompt: Quelle est votre hypothèse ?
+    options:
+      - label: Un surdosage en digoxine, favorisé par l'hypokaliémie du furosémide
+        correct: true
+      - label: Une gastro-entérite virale sans gravité
+      - label: Un effet attendu de la digoxine
+      - label: Une hypoglycémie
+    explanation: >-
+      Nausées + bradycardie chez un patient âgé sous digoxine = surdosage jusqu'à preuve du
+      contraire. La vision jaune-verte est typique. Le furosémide (hypokaliémie) et l'âge
+      favorisent l'accumulation. Ne pas administrer, alerter, ECG, ionogramme et digoxinémie.
+
+  - ref: cardio-aar-006
+    version: 1
+    type: single
+    level: 1
+    free: false
+    lesson: antiarythmiques
+    prompt: Quel conseil donner à un patient sous amiodarone ?
+    options:
+      - label: Se protéger du soleil, y compris plusieurs mois après l'arrêt
+        correct: true
+      - label: Boire du jus de pamplemousse pour améliorer l'absorption
+      - label: Arrêter le traitement en cas de toux
+      - label: Doubler la dose en cas d'oubli
+    explanation: >-
+      L'amiodarone est photosensibilisante et sa demi-vie est très longue. Une toux doit être
+      signalée (atteinte pulmonaire), sans arrêter le traitement de soi-même.

@@ -1,0 +1,53 @@
+slug: diuretiques-anse
+title: Diurétiques de l'anse
+classe: Diurétiques
+status: brouillon
+updated: 2026-09-28
+lesson: diuretiques
+molecules:
+  - dci: Furosémide
+    specialites: [LASILIX®]
+  - dci: Bumétanide
+    specialites: [BURINEX®]
+mecanisme: >-
+  Bloquent le co-transport Na⁺/K⁺/2Cl⁻ de la branche ascendante de l'anse de Henlé,
+  qui réabsorbe environ 25 % du sodium filtré. Effet rapide, puissant et dose-dépendant.
+indications:
+  - Œdème aigu du poumon et décompensation cardiaque (congestion)
+  - Œdèmes d'origine cardiaque, rénale ou hépatique
+  - HTA avec insuffisance rénale
+contre_indications:
+  - Hypovolémie ou déshydratation non corrigée
+  - Hypokaliémie sévère non corrigée
+  - Insuffisance rénale avec anurie
+  - Encéphalopathie hépatique
+  - Obstacle sur les voies urinaires
+  - Allergie connue à la molécule
+effets_indesirables:
+  - Hypokaliémie (troubles du rythme, toxicité de la digoxine)
+  - Hyponatrémie, hypocalcémie
+  - Déshydratation, hypotension orthostatique, chute
+  - Hyperuricémie (crise de goutte)
+  - Ototoxicité, surtout à forte dose en IV rapide
+surveillance:
+  - Poids quotidien (même balance, le matin)
+  - Diurèse et bilan entrées/sorties
+  - PA couché puis debout
+  - Ionogramme (K⁺, Na⁺) et créatinine
+  - Signes de déshydratation et d'hypokaliémie (crampes, faiblesse)
+interactions:
+  - AINS (baisse d'efficacité, risque d'insuffisance rénale)
+  - Digoxine et médicaments torsadogènes (risque majoré par l'hypokaliémie)
+  - Lithium (augmentation de la lithémie)
+  - Aminosides (ototoxicité et néphrotoxicité additives)
+  - Autres hypokaliémiants (corticoïdes, laxatifs stimulants)
+education:
+  - Prendre le traitement le matin, voire le midi
+  - Se lever en deux temps
+  - Se peser régulièrement et signaler une variation rapide du poids
+  - Consulter en cas de diarrhée, de vomissements ou de fièvre
+  - Pas d'automédication par AINS
+a_retenir:
+  - Le plus puissant des diurétiques, pour l'urgence et la congestion
+  - Hypokaliémiant, comme les thiazidiques
+  - Furosémide IV toujours en injection lente

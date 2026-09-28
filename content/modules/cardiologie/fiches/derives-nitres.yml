@@ -1,0 +1,46 @@
+slug: derives-nitres
+title: Dérivés nitrés
+classe: Anti-angineux
+status: brouillon
+updated: 2026-09-28
+lesson: angor
+molecules:
+  - dci: Trinitrine
+    specialites: [NATISPRAY®, TRINIPATCH®, NITRIDERM TTS®, LENITRAL®]
+  - dci: Dinitrate d'isosorbide
+    specialites: [RISORDAN®]
+  - dci: Isosorbide mononitrate
+    specialites: [MONICOR LP®]
+mecanisme: >-
+  Libèrent du monoxyde d'azote : vasodilatation surtout veineuse (baisse de la précharge et des
+  besoins en oxygène du cœur) et dilatation des coronaires.
+indications:
+  - Crise d'angor, et prévention avant un effort
+  - Traitement de fond de l'angor
+  - OAP et syndrome coronarien aigu (IV)
+contre_indications:
+  - Prise d'un inhibiteur de la PDE5 (sildénafil, tadalafil) dans les 24 à 48 heures
+  - PAS inférieure à 90 mmHg
+  - Infarctus du ventricule droit
+effets_indesirables:
+  - Céphalées, flush, bouffées de chaleur
+  - Hypotension orthostatique, malaise
+  - Tachycardie réflexe
+  - Tolérance en cas d'administration continue
+surveillance:
+  - PA avant et après la prise
+  - Douleur (EVA ou EN), heure de début, nombre de pulvérisations
+  - ECG pendant la crise si possible
+interactions:
+  - Sildénafil, tadalafil (collapsus)
+  - Autres vasodilatateurs et antihypertenseurs
+education:
+  - Prendre le spray assis, sous la langue, sans inhaler
+  - Réévaluer à 5 minutes, puis appeler le 15 si la douleur persiste
+  - Toujours avoir le spray sur soi et vérifier sa date de péremption
+  - "Patch : respecter la fenêtre sans patch et changer de site"
+  - Signaler tout traitement de la dysfonction érectile
+a_retenir:
+  - Vasodilatateurs surtout veineux
+  - Jamais avec un inhibiteur de la PDE5
+  - La céphalée est un effet attendu

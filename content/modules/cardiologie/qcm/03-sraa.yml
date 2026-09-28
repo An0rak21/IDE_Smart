@@ -1,0 +1,111 @@
+status: brouillon
+questions:
+  - ref: cardio-sraa-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: sraa
+    prompt: Pourquoi un IEC peut-il provoquer une toux sèche ?
+    options:
+      - label: Par accumulation de bradykinine, que l'ECA ne dégrade plus
+        correct: true
+      - label: Par une bronchoconstriction liée au blocage des récepteurs bêta 2
+      - label: Par une hyperkaliémie
+      - label: Par une rétention hydrosodée pulmonaire
+    explanation: >-
+      L'enzyme de conversion dégrade aussi la bradykinine. Sous IEC, la bradykinine
+      s'accumule : c'est la cause de la toux (10 à 20 % des patients) et de l'angiœdème.
+      Les ARA2 n'agissent pas sur la bradykinine, d'où le passage à un ARA2 en cas de toux.
+
+  - ref: cardio-sraa-002
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: sraa
+    prompt: Un patient sous ramipril doit passer à ENTRESTO®. Quelle précaution est indispensable ?
+    options:
+      - label: Arrêter le ramipril au moins 36 heures avant la première prise d'ENTRESTO®
+        correct: true
+      - label: Associer les deux traitements pendant une semaine
+      - label: Donner la première prise d'ENTRESTO® le soir de la dernière prise de ramipril
+      - label: Ajouter un antihistaminique pendant les premiers jours
+    explanation: >-
+      Associer un IEC et le sacubitril expose à un risque majeur d'angiœdème. L'IEC doit être
+      arrêté au moins 36 heures avant la première prise de sacubitril/valsartan, et les deux
+      ne doivent jamais être associés.
+
+  - ref: cardio-sraa-003
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: sraa
+    prompt: Quelles associations exposent à une hyperkaliémie ?
+    options:
+      - label: Ramipril + spironolactone
+        correct: true
+      - label: Irbésartan + sels de potassium
+        correct: true
+      - label: Valsartan + amiloride
+        correct: true
+      - label: Furosémide + hydrochlorothiazide
+    explanation: >-
+      Les bloqueurs du SRAA font garder le potassium ; l'association à un ARM, à l'amiloride
+      ou à des sels de potassium majore le risque. Furosémide et hydrochlorothiazide sont au
+      contraire hypokaliémiants.
+
+  - ref: cardio-sraa-004
+    version: 1
+    type: case
+    level: 3
+    free: false
+    lesson: sraa
+    context: >-
+      M. D., 74 ans, insuffisant cardiaque, est traité par ramipril et spironolactone. Il a une
+      diarrhée depuis 2 jours. Sa kaliémie du matin est à 6,2 mmol/L.
+    prompt: Quelle est la conduite la plus adaptée ?
+    options:
+      - label: Je préviens immédiatement le médecin, je ne donne ni ramipril ni spironolactone sans son avis, et je réalise un ECG
+        correct: true
+      - label: Je lui propose une banane pour compenser les pertes digestives
+      - label: J'administre les traitements du matin puis je préviens le médecin
+      - label: J'attends le contrôle de kaliémie prévu dans une semaine
+    explanation: >-
+      Hyperkaliémie sévère sous IEC + ARM, favorisée par la déshydratation (insuffisance rénale
+      fonctionnelle). Le risque est un trouble du rythme : alerte médicale immédiate, ECG,
+      surveillance scopée selon la prescription. Ne jamais apporter de potassium.
+
+  - ref: cardio-sraa-005
+    version: 1
+    type: true_false
+    level: 1
+    free: false
+    lesson: sraa
+    prompt: Les IEC et les ARA2 peuvent être poursuivis pendant la grossesse s'ils sont bien tolérés.
+    options:
+      - label: Vrai
+      - label: Faux
+        correct: true
+    explanation: >-
+      Les bloqueurs du SRAA sont contre-indiqués pendant la grossesse (fœtotoxiques aux 2e et 3e
+      trimestres). Il faut informer les femmes en âge de procréer et changer de traitement dès
+      le projet de grossesse.
+
+  - ref: cardio-sraa-006
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: sraa
+    prompt: Qu'appelle-t-on le « triple whammy » ?
+    options:
+      - label: L'association bloqueur du SRAA + diurétique + AINS, à risque d'insuffisance rénale aiguë
+        correct: true
+      - label: L'association IEC + ARA2 + ARNI
+      - label: Les trois effets indésirables des IEC (toux, angiœdème, hypotension)
+      - label: L'association de trois antihypertenseurs en un seul comprimé
+    explanation: >-
+      Bloqueur du SRAA, diurétique et AINS réduisent chacun la perfusion du rein. Ensemble, ils
+      exposent à une insuffisance rénale aiguë : pas d'AINS chez ces patients.

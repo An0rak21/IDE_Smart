@@ -1,0 +1,86 @@
+status: brouillon
+questions:
+  - ref: cardio-lip-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: hypolipemiants
+    prompt: Quel examen biologique surveille la toxicité musculaire des statines ?
+    options:
+      - label: Les CPK
+        correct: true
+      - label: La CRP
+      - label: La kaliémie
+      - label: La TSH
+    explanation: >-
+      La toxicité musculaire se surveille par les CPK (créatine phosphokinase), et non la CRP.
+      Douleurs musculaires et urines foncées doivent faire alerter.
+
+  - ref: cardio-lip-002
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: hypolipemiants
+    prompt: Quelles associations augmentent le risque de rhabdomyolyse sous simvastatine ?
+    options:
+      - label: Clarithromycine (macrolide)
+        correct: true
+      - label: Jus de pamplemousse
+        correct: true
+      - label: Amiodarone
+        correct: true
+      - label: Paracétamol
+    explanation: >-
+      La simvastatine est éliminée par le CYP3A4. Macrolides, azolés, pamplemousse, amiodarone
+      et ciclosporine augmentent sa concentration.
+
+  - ref: cardio-lip-003
+    version: 1
+    type: single
+    level: 1
+    free: false
+    lesson: hypolipemiants
+    prompt: Quelle est la cible de LDL-cholestérol après un infarctus ?
+    options:
+      - label: Inférieure à 0,55 g/L, avec une baisse d'au moins 50 %
+        correct: true
+      - label: Inférieure à 1,16 g/L
+      - label: Inférieure à 1,00 g/L
+      - label: Inférieure à 1,60 g/L
+    explanation: >-
+      Après un infarctus, le patient est à très haut risque : LDL inférieur à 0,55 g/L et baisse
+      d'au moins 50 % (ESC/EAS 2025).
+
+  - ref: cardio-lip-004
+    version: 1
+    type: true_false
+    level: 1
+    free: false
+    lesson: hypolipemiants
+    prompt: Les fibrates augmentent les triglycérides.
+    options:
+      - label: Vrai
+      - label: Faux
+        correct: true
+    explanation: >-
+      Les fibrates diminuent les triglycérides et augmentent le HDL. Associés à une statine, ils
+      majorent le risque musculaire (le gemfibrozil est contre-indiqué avec les statines).
+
+  - ref: cardio-lip-005
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: hypolipemiants
+    prompt: Un patient sous colestyramine prend aussi d'autres médicaments. Quel conseil lui donner ?
+    options:
+      - label: Prendre les autres médicaments au moins 1 heure avant ou 4 heures après
+        correct: true
+      - label: Tout prendre en même temps pour ne pas oublier
+      - label: Prendre la colestyramine le soir uniquement
+      - label: Arrêter les vitamines
+    explanation: >-
+      Les résines fixent les acides biliaires mais aussi d'autres médicaments et les vitamines
+      A, D, E, K : il faut espacer les prises.

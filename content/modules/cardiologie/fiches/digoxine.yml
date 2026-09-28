@@ -1,0 +1,41 @@
+slug: digoxine
+title: Digoxine
+classe: Glycosides cardiaques
+status: brouillon
+updated: 2026-09-28
+lesson: antiarythmiques
+molecules:
+  - dci: Digoxine
+    specialites: [DIGOXINE NATIVELLE®, HÉMIGOXINE NATIVELLE®]
+mecanisme: >-
+  Inhibe la pompe Na⁺/K⁺-ATPase : hausse du calcium intracellulaire, effet inotrope positif.
+  Effet vagal : chronotrope et dromotrope négatifs. Marge thérapeutique étroite, élimination
+  rénale.
+indications:
+  - Ralentir la fréquence dans la fibrillation atriale
+  - Insuffisance cardiaque à FE réduite restant symptomatique malgré le traitement de fond (classe IIa, ESC 2026)
+contre_indications:
+  - Bloc auriculo-ventriculaire de haut degré non appareillé
+  - Troubles du rythme ventriculaire
+  - Hypokaliémie non corrigée
+effets_indesirables:
+  - "Surdosage digestif en premier : nausées, vomissements, perte d'appétit"
+  - Vision jaune-verte, halos
+  - Confusion chez le sujet âgé
+  - Bradycardie, bloc AV, extrasystoles, tachycardie ventriculaire
+surveillance:
+  - "FC avant chaque prise : inférieure à 60/min ou irrégularité nouvelle, avis médical"
+  - Digoxinémie au moins 6 à 8 h après la prise (cible dans l'IC autour de 0,5 à 0,9 ng/mL)
+  - Kaliémie, créatinine
+interactions:
+  - Diurétiques hypokaliémiants
+  - Amiodarone, vérapamil, macrolides (hausse de la digoxinémie)
+  - Bêtabloquants (bradycardie)
+education:
+  - Signaler nausées, perte d'appétit, troubles de la vision
+  - Ne jamais doubler une dose oubliée
+  - Pas d'automédication sans avis
+a_retenir:
+  - Marge thérapeutique étroite, élimination rénale
+  - Nausées + bradycardie = surdosage jusqu'à preuve du contraire
+  - "Antidote : fragments d'anticorps (DIGIFAB®)"

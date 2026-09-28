@@ -1,0 +1,42 @@
+slug: gliflozines
+title: Gliflozines (inhibiteurs de SGLT2)
+classe: Gliflozines
+status: brouillon
+updated: 2026-09-28
+lesson: insuffisance-cardiaque
+molecules:
+  - dci: Dapagliflozine
+    specialites: [FORXIGA®]
+  - dci: Empagliflozine
+    specialites: [JARDIANCE®]
+mecanisme: >-
+  Bloquent le co-transporteur SGLT2 du tube proximal : élimination urinaire de glucose et de
+  sodium. Protection cardiaque et rénale, même sans diabète.
+indications:
+  - Insuffisance cardiaque, quelle que soit la FEVG (classe I)
+  - Maladie rénale chronique
+  - Diabète de type 2
+contre_indications:
+  - Acidocétose, diabète de type 1 (hors cas particuliers)
+  - Déshydratation non corrigée
+  - Hypersensibilité connue
+effets_indesirables:
+  - Mycoses génitales, infections urinaires
+  - Déshydratation, hypotension
+  - Acidocétose euglycémique (glycémie normale ou peu élevée)
+surveillance:
+  - Hydratation, PA
+  - Signes d'infection génitale ou urinaire
+  - Cétonémie en cas de nausées, vomissements, polypnée ou malaise
+interactions:
+  - "Diurétiques (déshydratation : la dose de diurétique de l'anse peut baisser)"
+  - Insuline et sulfamides (hypoglycémie chez le diabétique)
+education:
+  - "Glucose dans les urines : attendu, ce n'est pas un déséquilibre"
+  - Hygiène intime soigneuse
+  - Suspendre avant une chirurgie et en cas de jeûne ou de maladie aiguë, selon la prescription
+  - Consulter en cas de vomissements ou de malaise
+a_retenir:
+  - "Suffixe -gliflozine : pilier de l'IC et du rein"
+  - Glycosurie attendue
+  - Acidocétose possible avec une glycémie normale

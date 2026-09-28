@@ -1,0 +1,47 @@
+slug: arm
+title: Antagonistes de l'aldostérone (ARM)
+classe: Bloqueurs du SRAA
+status: brouillon
+updated: 2026-09-28
+lesson: sraa
+molecules:
+  - dci: Spironolactone
+    specialites: [ALDACTONE®]
+  - dci: Canrénoate de potassium
+    specialites: [SOLUDACTONE®]
+  - dci: Éplérénone
+    specialites: [INSPRA®]
+  - dci: Finérénone
+    specialites: [KERENDIA®]
+mecanisme: >-
+  Bloquent le récepteur de l'aldostérone (tube collecteur, cœur, vaisseaux) : natriurèse
+  modeste, rétention de potassium, effet anti-fibrosant sur le cœur et le rein.
+indications:
+  - Insuffisance cardiaque, quelle que soit la FEVG (classe I, ESC 2026)
+  - HTA résistante
+  - Hyperaldostéronisme
+  - Ascite du cirrhotique (spironolactone)
+  - Maladie rénale du diabétique (finérénone)
+contre_indications:
+  - Kaliémie supérieure à 5,0 mmol/L à l'initiation
+  - Insuffisance rénale sévère
+  - Association à des sels de potassium ou à l'amiloride
+effets_indesirables:
+  - Hyperkaliémie, surtout avec IEC, ARA2 ou ARNI
+  - Insuffisance rénale
+  - Gynécomastie douloureuse, troubles des règles, baisse de libido (spironolactone)
+surveillance:
+  - K⁺ et créatinine à 1 et 4 semaines, puis régulièrement
+  - Gynécomastie
+interactions:
+  - IEC, ARA2, ARNI (hyperkaliémie)
+  - Sels de potassium, amiloride, triméthoprime
+  - AINS
+education:
+  - Ne pas prendre de potassium ni de sel de régime potassé sans avis
+  - Consulter en cas de diarrhée, de vomissements ou de fièvre
+  - Signaler une gêne mammaire (spironolactone)
+a_retenir:
+  - Épargneurs de potassium, donc hyperkaliémiants
+  - L'éplérénone évite la gynécomastie
+  - K⁺ surveillée de près, surtout en association

@@ -1,0 +1,86 @@
+status: brouillon
+questions:
+  - ref: cardio-hta-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: hta
+    prompt: En automesure, à partir de quelle moyenne parle-t-on d'HTA ?
+    options:
+      - label: 135/85 mmHg ou plus
+        correct: true
+      - label: 140/90 mmHg ou plus
+      - label: 120/70 mmHg ou plus
+      - label: 160/100 mmHg ou plus
+    explanation: >-
+      Le seuil est de 140/90 mmHg au cabinet, mais de 135/85 mmHg en automesure, réalisée selon
+      la règle des 3 (3 mesures matin et soir, 3 jours de suite).
+
+  - ref: cardio-hta-002
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: hta
+    prompt: Quelle est la première étape du traitement de l'HTA selon l'ESC 2024 ?
+    options:
+      - label: Une bithérapie à faible dose en un seul comprimé
+        correct: true
+      - label: Une monothérapie par diurétique thiazidique
+      - label: Une monothérapie par bêtabloquant
+      - label: Une trithérapie d'emblée
+    explanation: >-
+      On débute par une bithérapie à faible dose en association fixe (IEC ou ARA2 + inhibiteur
+      calcique ou thiazidique), puis pleine dose, puis trithérapie, puis spironolactone en cas
+      d'HTA résistante.
+
+  - ref: cardio-hta-003
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: hta
+    prompt: Quels antihypertenseurs sont utilisables pendant la grossesse ?
+    options:
+      - label: Labétalol
+        correct: true
+      - label: Nicardipine
+        correct: true
+      - label: Ramipril
+      - label: Valsartan
+    explanation: >-
+      IEC, ARA2, ARNI et ARM sont contre-indiqués pendant la grossesse. Labétalol, nicardipine,
+      nifédipine et méthyldopa sont utilisables.
+
+  - ref: cardio-hta-004
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: hta
+    prompt: Pourquoi conseille-t-on de prendre la première dose de prazosine au coucher ?
+    options:
+      - label: Pour limiter l'hypotension orthostatique de première dose
+        correct: true
+      - label: Parce qu'elle provoque une somnolence importante
+      - label: Parce qu'elle est mieux absorbée à jeun
+      - label: Pour éviter une toux nocturne
+    explanation: >-
+      Les alpha-bloquants provoquent une vasodilatation artérielle, avec un risque d'hypotension
+      orthostatique marqué à la première prise : d'où la prise au coucher.
+
+  - ref: cardio-hta-005
+    version: 1
+    type: true_false
+    level: 1
+    free: false
+    lesson: hta
+    prompt: La clonidine peut être arrêtée brutalement sans risque.
+    options:
+      - label: Vrai
+      - label: Faux
+        correct: true
+    explanation: >-
+      L'arrêt brutal de la clonidine expose à un rebond hypertensif. L'arrêt se fait
+      progressivement, sur décision médicale.

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AccountNav } from "@/components/account-nav";
 import { getAccount, isAdminEmail, isPremium, type Subscription } from "@/lib/account";
@@ -54,7 +55,12 @@ export default async function AdminPage() {
   return (
     <div className="mx-auto max-w-6xl px-5 py-10">
       <AccountNav current="admin" isAdmin />
-      <h1 className="mt-8 font-display text-3xl font-normal tracking-tight text-ink">Administration</h1>
+      <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
+        <h1 className="font-display text-3xl font-normal tracking-tight text-ink">Administration</h1>
+        <Link href="/admin/signalements" className="text-sm font-bold text-teal underline">
+          Signalements sur les questions
+        </Link>
+      </div>
 
       <dl className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
         {stats.map(([label, value]) => (

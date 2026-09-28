@@ -1,0 +1,71 @@
+status: brouillon
+questions:
+  - ref: cardio-syn-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: synthese
+    prompt: "À quelle classe appartient l'irbésartan ?"
+    options:
+      - label: ARA2
+        correct: true
+      - label: IEC
+      - label: Bêtabloquant
+      - label: Inhibiteur calcique
+    explanation: >-
+      Le suffixe -sartan désigne les ARA2 (bloqueurs du récepteur AT1 de l'angiotensine II).
+
+  - ref: cardio-syn-002
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: synthese
+    prompt: Quelle association expose le plus à la bradycardie et au bloc auriculo-ventriculaire ?
+    options:
+      - label: Bisoprolol + vérapamil
+        correct: true
+      - label: Ramipril + amlodipine
+      - label: Furosémide + atorvastatine
+      - label: Dapagliflozine + spironolactone
+    explanation: >-
+      Bêtabloquant et vérapamil (ou diltiazem) ralentissent tous deux la fréquence et la
+      conduction auriculo-ventriculaire. La digoxine, l'amiodarone et l'ivabradine majorent aussi
+      ce risque.
+
+  - ref: cardio-syn-003
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: synthese
+    prompt: Quelles affirmations sont justes ?
+    options:
+      - label: Une toux sèche sous ramipril peut faire passer à un ARA2
+        correct: true
+      - label: Une glycosurie sous dapagliflozine est attendue
+        correct: true
+      - label: La spironolactone est un diurétique hypokaliémiant
+      - label: Les statines se surveillent par la CRP
+    explanation: >-
+      La toux des IEC est liée à la bradykinine, sur laquelle les ARA2 n'agissent pas. La
+      glycosurie est le mécanisme même des gliflozines. La spironolactone expose à
+      l'hyperkaliémie, et les statines se surveillent par les CPK.
+
+  - ref: cardio-syn-004
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: synthese
+    prompt: "Quelle association expose à des torsades de pointes ?"
+    options:
+      - label: Une hypokaliémie sous furosémide chez un patient traité par sotalol
+        correct: true
+      - label: Ramipril et spironolactone
+      - label: Atorvastatine et ézétimibe
+      - label: Amlodipine et périndopril
+    explanation: >-
+      Le sotalol allonge le QT et l'hypokaliémie favorise les torsades de pointes : kaliémie
+      avant l'administration, ECG en cas d'association à risque.

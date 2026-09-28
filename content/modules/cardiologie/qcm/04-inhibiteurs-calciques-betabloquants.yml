@@ -1,0 +1,108 @@
+status: brouillon
+questions:
+  - ref: cardio-icbb-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: inhibiteurs-calciques-betabloquants
+    prompt: Un patient sous amlodipine a les chevilles gonflées. Quelle est l'explication la plus probable ?
+    options:
+      - label: Un effet indésirable fréquent des dihydropyridines, lié à la vasodilatation
+        correct: true
+      - label: Une rétention hydrosodée par insuffisance cardiaque aggravée
+      - label: Une hyperkaliémie
+      - label: Une réaction allergique
+    explanation: >-
+      Les œdèmes des chevilles sous dihydropyridines sont dus à la vasodilatation artérielle, pas
+      à une rétention d'eau : les diurétiques y sont peu efficaces. Ils restent à signaler.
+
+  - ref: cardio-icbb-002
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: inhibiteurs-calciques-betabloquants
+    prompt: Chez un patient asthmatique, quel type de bêtabloquant pose le plus de problème ?
+    options:
+      - label: Un bêtabloquant non sélectif, comme le propranolol
+        correct: true
+      - label: Un bêtabloquant cardiosélectif, comme le bisoprolol
+      - label: Tous les bêtabloquants posent exactement le même problème
+      - label: Aucun, les bêtabloquants dilatent les bronches
+    explanation: >-
+      Les non sélectifs bloquent les récepteurs bêta 2 des bronches : bronchoconstriction.
+      L'asthme est une contre-indication. Les cardiosélectifs sont préférés chez le BPCO, mais
+      leur sélectivité est relative et diminue aux fortes doses.
+
+  - ref: cardio-icbb-003
+    version: 1
+    type: case
+    level: 3
+    free: false
+    lesson: inhibiteurs-calciques-betabloquants
+    context: >-
+      Mme R., 68 ans, reçoit bisoprolol 5 mg et diltiazem LP 200 mg le matin. Avant la prise :
+      FC 46/min, PA 104/62 mmHg. Elle se plaint de vertiges.
+    prompt: Que faites-vous ?
+    options:
+      - label: Je n'administre pas, je préviens le médecin et je fais un ECG sur prescription
+        correct: true
+      - label: J'administre, ces valeurs sont attendues sous bêtabloquant
+      - label: Je donne seulement la moitié des comprimés
+      - label: J'arrête définitivement le bisoprolol
+    explanation: >-
+      Bradycardie symptomatique : l'association bêtabloquant + diltiazem majore le risque de
+      bradycardie et de bloc auriculo-ventriculaire. L'infirmier suspend l'administration,
+      alerte, trace et réalise l'ECG prescrit. L'adaptation des doses est médicale.
+
+  - ref: cardio-icbb-004
+    version: 1
+    type: true_false
+    level: 1
+    free: false
+    lesson: inhibiteurs-calciques-betabloquants
+    prompt: Un bêtabloquant peut être arrêté du jour au lendemain si le patient se sent fatigué.
+    options:
+      - label: Vrai
+      - label: Faux
+        correct: true
+    explanation: >-
+      L'arrêt brutal d'un bêtabloquant provoque un effet rebond (angor, infarctus). Toute
+      diminution se fait progressivement et sur décision médicale.
+
+  - ref: cardio-icbb-005
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: inhibiteurs-calciques-betabloquants
+    prompt: Chez un patient diabétique sous bêtabloquant, quel signe d'hypoglycémie persiste ?
+    options:
+      - label: Les sueurs
+        correct: true
+      - label: Les palpitations
+      - label: Les tremblements
+      - label: La tachycardie
+    explanation: >-
+      Les bêtabloquants masquent les signes adrénergiques de l'hypoglycémie (tremblements,
+      palpitations, tachycardie). Les sueurs persistent : c'est le signal à enseigner au patient.
+
+  - ref: cardio-icbb-006
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: inhibiteurs-calciques-betabloquants
+    prompt: Quels conseils donner à un patient traité par nifédipine LP ?
+    options:
+      - label: Avaler le comprimé sans l'écraser
+        correct: true
+      - label: Éviter le jus de pamplemousse
+        correct: true
+      - label: Prendre le comprimé au coucher pour éviter la toux
+      - label: Surveiller sa kaliémie chaque semaine
+    explanation: >-
+      Les formes LP ne s'écrasent pas (libération trop rapide). Le pamplemousse inhibe le
+      CYP3A4 et expose au surdosage. La toux concerne les IEC, et la nifédipine n'agit pas sur
+      la kaliémie.

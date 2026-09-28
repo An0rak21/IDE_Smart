@@ -1,0 +1,114 @@
+status: brouillon
+questions:
+  - ref: cardio-ic-001
+    version: 1
+    type: multiple
+    level: 2
+    free: true
+    lesson: insuffisance-cardiaque
+    prompt: Quels sont les 4 piliers du traitement de l'insuffisance cardiaque à FE réduite (ESC 2026) ?
+    options:
+      - label: Un bêtabloquant
+        correct: true
+      - label: Un ARNI (ou IEC ou ARA2)
+        correct: true
+      - label: Un ARM
+        correct: true
+      - label: Une gliflozine
+        correct: true
+      - label: Un inhibiteur calcique de type diltiazem
+    explanation: >-
+      Bêtabloquant, ARNI (de préférence), ARM et gliflozine, à associer rapidement. Le diltiazem
+      et le vérapamil sont contre-indiqués dans l'IC à FE réduite.
+
+  - ref: cardio-ic-002
+    version: 1
+    type: true_false
+    level: 1
+    free: false
+    lesson: insuffisance-cardiaque
+    prompt: Une glycosurie à la bandelette chez un patient sous dapagliflozine est attendue.
+    options:
+      - label: Vrai
+        correct: true
+      - label: Faux
+    explanation: >-
+      Les gliflozines font éliminer le glucose dans les urines : c'est leur mécanisme d'action,
+      pas un déséquilibre du diabète.
+
+  - ref: cardio-ic-003
+    version: 1
+    type: single
+    level: 3
+    free: false
+    lesson: insuffisance-cardiaque
+    prompt: "Un patient sous empagliflozine vomit, respire vite et se sent très mal. Sa glycémie est à 1,40 g/L. Que redouter ?"
+    options:
+      - label: Une acidocétose euglycémique
+        correct: true
+      - label: Une hypoglycémie
+      - label: Rien de grave, la glycémie est presque normale
+      - label: Une hyperkaliémie
+    explanation: >-
+      Sous gliflozine, l'acidocétose peut survenir avec une glycémie normale ou peu élevée.
+      Vomissements, polypnée et altération de l'état général doivent faire doser la cétonémie
+      et alerter.
+
+  - ref: cardio-ic-004
+    version: 1
+    type: single
+    level: 1
+    free: false
+    lesson: insuffisance-cardiaque
+    prompt: Quelle prise de poids doit faire appeler le médecin chez un insuffisant cardiaque ?
+    options:
+      - label: 2 kg en 3 jours
+        correct: true
+      - label: 2 kg en 3 mois
+      - label: 500 g en une semaine
+      - label: 5 kg en un mois uniquement
+    explanation: >-
+      Une prise de poids rapide traduit une rétention d'eau, souvent avant les symptômes. Pesée
+      chaque matin, à jeun, après avoir uriné, sur la même balance.
+
+  - ref: cardio-ic-005
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: insuffisance-cardiaque
+    prompt: Pourquoi ne faut-il jamais faire de bolus sur la ligne d'une noradrénaline au PSE ?
+    options:
+      - label: Le bolus pousserait brutalement la noradrénaline contenue dans la tubulure
+        correct: true
+      - label: La noradrénaline précipite avec tous les autres produits
+      - label: Le bolus arrêterait la seringue électrique
+      - label: Pour éviter une hypokaliémie
+    explanation: >-
+      Un bolus sur la ligne injecte d'un coup la noradrénaline de la tubulure (poussée
+      hypertensive), et une interruption fait chuter la tension : demi-vie de quelques minutes.
+      Voie dédiée, relais anticipé.
+
+  - ref: cardio-ic-006
+    version: 1
+    type: case
+    level: 3
+    free: false
+    lesson: insuffisance-cardiaque
+    context: >-
+      Mme L., 78 ans, IC à FE réduite (FEVG 35 %), reçoit furosémide 40 mg, bisoprolol 5 mg,
+      sacubitril/valsartan 49/51 mg deux fois par jour, spironolactone 25 mg et dapagliflozine
+      10 mg. Gastro-entérite depuis 48 heures, vertiges au lever. PA 92/55 mmHg, FC 52/min,
+      K⁺ 6,0 mmol/L, créatinine doublée.
+    prompt: Quelle est la conduite infirmière adaptée ?
+    options:
+      - label: Suspendre l'administration, alerter le médecin, ECG et scope selon la prescription, bilan des entrées et sorties
+        correct: true
+      - label: Administrer tous les traitements et surveiller la PA dans 4 heures
+      - label: Ne donner que le furosémide pour éliminer le potassium
+      - label: Donner un comprimé de potassium pour compenser la diarrhée
+    explanation: >-
+      ARNI + spironolactone : hyperkaliémie ; furosémide + dapagliflozine + diarrhée :
+      déshydratation et insuffisance rénale fonctionnelle ; bisoprolol : bradycardie aggravée par
+      l'hyperkaliémie. Risques : trouble du rythme, insuffisance rénale aiguë, chute. À distance :
+      éducation aux « sick day rules ».

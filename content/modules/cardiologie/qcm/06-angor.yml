@@ -1,0 +1,86 @@
+status: brouillon
+questions:
+  - ref: cardio-ang-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: angor
+    prompt: Quel est l'effet principal des dérivés nitrés qui soulage la crise d'angor ?
+    options:
+      - label: Une vasodilatation surtout veineuse, qui diminue le travail du cœur
+        correct: true
+      - label: Une baisse de la fréquence cardiaque
+      - label: Une augmentation de la force de contraction
+      - label: Une fluidification du sang
+    explanation: >-
+      Le NO libéré relâche surtout les veines : le retour veineux (précharge) baisse, donc les
+      besoins du cœur en oxygène diminuent. Les coronaires sont aussi dilatées.
+
+  - ref: cardio-ang-002
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: angor
+    prompt: "Un patient en crise d'angor a reçu une pulvérisation de trinitrine il y a 5 minutes. La douleur persiste, PA 128/76 mmHg. Que faites-vous ?"
+    options:
+      - label: Une deuxième pulvérisation, puis appel du 15 si la douleur ne cède pas
+        correct: true
+      - label: Trois pulvérisations d'un coup pour être efficace
+      - label: J'attends 30 minutes avant toute nouvelle prise
+      - label: Je lui fais inhaler le spray pour une action plus rapide
+    explanation: >-
+      Protocole : assis, PA, une pulvérisation sous la langue, réévaluation à 5 minutes, deuxième
+      pulvérisation si besoin, puis le 15 si la douleur persiste (syndrome coronarien aigu possible).
+
+  - ref: cardio-ang-003
+    version: 1
+    type: true_false
+    level: 1
+    free: false
+    lesson: angor
+    prompt: Un patient porteur d'un patch de trinitrine peut prendre du sildénafil le lendemain.
+    options:
+      - label: Vrai
+      - label: Faux
+        correct: true
+    explanation: >-
+      L'association d'un dérivé nitré et d'un inhibiteur de la PDE5 (sildénafil, tadalafil) est
+      contre-indiquée : risque de collapsus. Il faut respecter un délai de 24 à 48 heures.
+
+  - ref: cardio-ang-004
+    version: 1
+    type: single
+    level: 2
+    free: false
+    lesson: angor
+    prompt: Pourquoi prévoit-on une période sans patch de trinitrine chaque jour ?
+    options:
+      - label: Pour éviter l'échappement de l'effet (tolérance)
+        correct: true
+      - label: Pour laisser la peau cicatriser
+      - label: Pour éviter les céphalées nocturnes
+      - label: Parce que le patch n'agit pas la nuit
+    explanation: >-
+      En administration continue, les dérivés nitrés perdent leur efficacité. Une fenêtre de 8
+      à 12 heures sans patch, souvent la nuit, prévient cette tolérance.
+
+  - ref: cardio-ang-005
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: angor
+    prompt: Que contient le traitement « BASIC » après un infarctus ?
+    options:
+      - label: Un bêtabloquant
+        correct: true
+      - label: Un ou des antiagrégants plaquettaires
+        correct: true
+      - label: Une statine
+        correct: true
+      - label: Un inhibiteur calcique de type vérapamil
+    explanation: >-
+      BASIC : bêtabloquant, antiagrégant(s), statine à forte dose, IEC (ou ARA2), contrôle des
+      facteurs de risque et réadaptation.

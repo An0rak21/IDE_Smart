@@ -17,6 +17,9 @@ export async function SiteHeader() {
           {site.name}
         </Link>
         <nav aria-label="Navigation principale" className="flex items-center gap-1 sm:gap-3">
+          <Link href="/modules" className="rounded-full px-3 py-2 text-ink-soft transition-colors hover:text-ink">
+            Modules
+          </Link>
           <Link href="/tarifs" className="rounded-full px-3 py-2 text-ink-soft transition-colors hover:text-ink">
             Tarifs
           </Link>

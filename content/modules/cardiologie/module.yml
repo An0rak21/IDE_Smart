@@ -1,0 +1,21 @@
+slug: cardiologie
+title: Les médicaments en cardiologie
+semester: S3
+position: 1
+status: valide
+description: >-
+  Diurétiques, bloqueurs du SRAA, inhibiteurs calciques, bêtabloquants, dérivés nitrés,
+  antiarythmiques et traitement de l'insuffisance cardiaque : comprendre, administrer,
+  surveiller, éduquer. À jour des recommandations ESC 2024 à 2026.
+# Ordre des leçons. Chaque slug doit avoir son fichier dans lecons/.
+lessons:
+  - rappels
+  - diuretiques
+  - sraa
+  - inhibiteurs-calciques-betabloquants
+  - hta
+  - angor
+  - antiarythmiques
+  - insuffisance-cardiaque
+  - hypolipemiants
+  - synthese

@@ -1,0 +1,55 @@
+slug: ara2-arni
+title: ARA2 (sartans) et ARNI (sacubitril/valsartan)
+classe: Bloqueurs du SRAA
+status: brouillon
+updated: 2026-09-28
+lesson: sraa
+molecules:
+  - dci: Irbésartan
+    specialites: [APROVEL®]
+  - dci: Losartan
+    specialites: [COZAAR®]
+  - dci: Valsartan
+    specialites: [TAREG®]
+  - dci: Candésartan
+    specialites: [ATACAND®]
+  - dci: Telmisartan
+    specialites: [MICARDIS®]
+  - dci: Olmésartan
+    specialites: [OLMETEC®]
+  - dci: Sacubitril + valsartan
+    specialites: [ENTRESTO®]
+mecanisme: >-
+  Les ARA2 bloquent le récepteur AT1 de l'angiotensine II, sans effet sur la bradykinine.
+  L'ARNI associe le valsartan au sacubitril, qui inhibe la néprilysine et renforce les
+  peptides natriurétiques (natriurèse, vasodilatation).
+indications:
+  - HTA (ARA2)
+  - "Insuffisance cardiaque : l'ARNI est le bloqueur du SRAA à privilégier dans l'IC à FE réduite (ESC 2026)"
+  - Néphroprotection (ARA2)
+contre_indications:
+  - Grossesse
+  - Association IEC + ARNI, ou IEC + ARA2
+  - Antécédent d'angiœdème (ARNI)
+effets_indesirables:
+  - Hypotension, surtout avec l'ARNI
+  - Hyperkaliémie
+  - Insuffisance rénale fonctionnelle
+  - Angiœdème (ARNI)
+  - Toux rare
+surveillance:
+  - PA
+  - K⁺ et créatinine à 1–2 semaines, puis régulièrement
+interactions:
+  - "IEC (contre-indiqué : délai de 36 h avant l'ARNI)"
+  - ARM, amiloride, sels de potassium (hyperkaliémie)
+  - AINS (insuffisance rénale aiguë)
+education:
+  - Se lever en deux temps
+  - Pas d'AINS en automédication
+  - Consulter en cas de diarrhée, de vomissements ou de fièvre
+  - Prévenir en cas de projet de grossesse
+a_retenir:
+  - "Suffixe -sartan : même efficacité que les IEC, sans toux"
+  - Relais IEC vers ENTRESTO® après au moins 36 heures sans IEC
+  - Jamais IEC + ARA2 ou ARNI

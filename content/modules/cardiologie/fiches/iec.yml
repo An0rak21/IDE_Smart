@@ -1,0 +1,54 @@
+slug: iec
+title: Inhibiteurs de l'enzyme de conversion (IEC)
+classe: Bloqueurs du SRAA
+status: brouillon
+updated: 2026-09-28
+lesson: sraa
+molecules:
+  - dci: Ramipril
+    specialites: [TRIATEC®]
+  - dci: Périndopril
+    specialites: [COVERSYL®]
+  - dci: Énalapril
+    specialites: [RENITEC®]
+  - dci: Lisinopril
+    specialites: [ZESTRIL®]
+  - dci: Captopril
+    specialites: [LOPRIL®]
+mecanisme: >-
+  Inhibent l'enzyme de conversion : moins d'angiotensine II (vasodilatation, baisse de
+  l'aldostérone) et accumulation de bradykinine. Protègent le cœur et le rein.
+indications:
+  - HTA
+  - Insuffisance cardiaque à FE réduite
+  - Après un infarctus
+  - Néphropathie avec protéinurie, diabétique ou non
+contre_indications:
+  - Grossesse (2e et 3e trimestres)
+  - Antécédent d'angiœdème
+  - Association à un ARA2 ou à un ARNI
+effets_indesirables:
+  - Toux sèche (10 à 20 %)
+  - Hypotension à la première prise
+  - Hyperkaliémie
+  - Insuffisance rénale fonctionnelle
+  - Angiœdème, rare mais grave
+surveillance:
+  - PA, notamment à la première prise
+  - K⁺ et créatinine à 1–2 semaines, puis régulièrement
+  - Toux, gonflement du visage ou des lèvres
+interactions:
+  - ARA2, ARNI (contre-indiqués)
+  - ARM, amiloride, sels de potassium (hyperkaliémie)
+  - AINS, surtout avec un diurétique (insuffisance rénale aiguë)
+  - Lithium (augmentation de la lithémie)
+education:
+  - Signaler une toux persistante sans arrêter seul le traitement
+  - Appeler le 15 en cas de gonflement des lèvres, de la langue ou de la gorge
+  - Pas d'AINS en automédication
+  - Consulter en cas de diarrhée, de vomissements, de fièvre ou de canicule
+  - Prévenir en cas de projet de grossesse
+a_retenir:
+  - Suffixe -pril
+  - La toux vient de la bradykinine et fait passer à un ARA2
+  - K⁺ et créatinine après chaque introduction ou hausse de dose

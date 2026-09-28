@@ -1,0 +1,49 @@
+slug: statines
+title: Statines
+classe: Hypolipémiants
+status: brouillon
+updated: 2026-09-28
+lesson: hypolipemiants
+molecules:
+  - dci: Atorvastatine
+    specialites: [TAHOR®]
+  - dci: Rosuvastatine
+    specialites: [CRESTOR®]
+  - dci: Simvastatine
+    specialites: [ZOCOR®]
+  - dci: Pravastatine
+    specialites: [ELISOR®, VASTEN®]
+  - dci: Fluvastatine
+    specialites: [LESCOL®]
+mecanisme: >-
+  Inhibent l'HMG-CoA réductase : moins de synthèse hépatique de cholestérol, captation accrue
+  du LDL circulant (baisse de 30 à 50 %), stabilisation de la plaque d'athérome.
+indications:
+  - Prévention cardiovasculaire primaire, selon le risque
+  - Prévention secondaire (après un infarctus, un AVC…)
+  - Hypercholestérolémie
+contre_indications:
+  - Grossesse et allaitement
+  - Maladie hépatique évolutive
+  - Association au gemfibrozil
+effets_indesirables:
+  - "Douleurs musculaires : rarement rhabdomyolyse"
+  - Élévation des transaminases
+  - Légère augmentation du risque de diabète
+surveillance:
+  - Douleurs musculaires, urines foncées
+  - CPK sur prescription, transaminases
+  - LDL 4 à 12 semaines après chaque changement, puis une fois par an
+interactions:
+  - Macrolides, antifongiques azolés, jus de pamplemousse (simvastatine, atorvastatine)
+  - Amiodarone, ciclosporine
+  - Gemfibrozil (contre-indiqué)
+education:
+  - Signaler douleurs musculaires, faiblesse ou urines foncées
+  - Ne pas arrêter sans avis médical
+  - Pas de jus de pamplemousse
+  - "Simvastatine : prise le soir"
+a_retenir:
+  - Suffixe -statine
+  - "Toxicité musculaire : surveiller les CPK, pas la CRP"
+  - Interactions via le CYP3A4

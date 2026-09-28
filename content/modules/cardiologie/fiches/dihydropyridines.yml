@@ -1,0 +1,48 @@
+slug: dihydropyridines
+title: Inhibiteurs calciques dihydropyridines
+classe: Inhibiteurs calciques
+status: brouillon
+updated: 2026-09-28
+lesson: inhibiteurs-calciques-betabloquants
+molecules:
+  - dci: Amlodipine
+    specialites: [AMLOR®]
+  - dci: Lercanidipine
+    specialites: [ZANIDIP®]
+  - dci: Nifédipine
+    specialites: [ADALATE® LP]
+  - dci: Nicardipine
+    specialites: [LOXEN®]
+mecanisme: >-
+  Bloquent les canaux calciques de type L des artères : vasodilatation artérielle, sans effet
+  bradycardisant.
+indications:
+  - HTA
+  - Angor stable
+  - Urgence hypertensive (nicardipine IV)
+  - HTA de la grossesse (nicardipine, nifédipine)
+contre_indications:
+  - Choc cardiogénique
+  - Angor instable ou infarctus récent (formes à libération immédiate)
+  - Hypersensibilité connue
+effets_indesirables:
+  - Œdèmes des chevilles, non liés à une rétention d'eau
+  - Céphalées, flush
+  - Tachycardie réflexe
+  - Hypertrophie gingivale
+surveillance:
+  - PA
+  - Œdèmes
+  - "Nicardipine IV : PA rapprochée à la seringue électrique, point de ponction (veinotoxique)"
+interactions:
+  - Jus de pamplemousse et inhibiteurs du CYP3A4 (surdosage)
+  - Autres antihypertenseurs (hypotension)
+education:
+  - Avaler les formes LP sans les écraser
+  - Pas de jus de pamplemousse
+  - Signaler des chevilles gonflées
+  - Hygiène bucco-dentaire soigneuse
+a_retenir:
+  - Suffixe -dipine, action vasculaire
+  - Les œdèmes des chevilles ne se traitent pas par diurétique
+  - Pas de pamplemousse

@@ -1,0 +1,46 @@
+slug: thiazidiques
+title: Diurétiques thiazidiques et apparentés
+classe: Diurétiques
+status: brouillon
+updated: 2026-09-28
+lesson: diuretiques
+molecules:
+  - dci: Hydrochlorothiazide
+    specialites: [ESIDREX®]
+  - dci: Indapamide
+    specialites: [FLUDEX®]
+mecanisme: >-
+  Bloquent le co-transport Na⁺/Cl⁻ du tube contourné distal. Effet diurétique modéré et
+  prolongé.
+indications:
+  - HTA, en traitement de fond (souvent en association fixe)
+  - Œdèmes modérés
+contre_indications:
+  - Insuffisance rénale sévère
+  - Hypokaliémie ou hyponatrémie non corrigée
+  - Encéphalopathie hépatique
+  - Allergie connue à la molécule
+effets_indesirables:
+  - Hypokaliémie
+  - Hyponatrémie, surtout chez la femme âgée
+  - Hypercalcémie
+  - Hyperuricémie et hyperglycémie
+  - Déshydratation, hypotension orthostatique
+  - Photosensibilisation
+surveillance:
+  - Ionogramme (K⁺, Na⁺), calcémie, créatinine
+  - Uricémie et glycémie
+  - PA couché puis debout, poids
+interactions:
+  - Lithium (augmentation de la lithémie)
+  - AINS (baisse d'efficacité, risque rénal)
+  - Médicaments torsadogènes et digoxine (risque majoré par l'hypokaliémie)
+education:
+  - Prendre le traitement le matin
+  - Se protéger du soleil
+  - Consulter en cas de diarrhée, de vomissements ou de fièvre
+  - Se lever en deux temps
+a_retenir:
+  - Hypokaliémiants, comme l'anse
+  - Font monter la calcémie, alors que l'anse la fait baisser
+  - Hyponatrémie à guetter chez la femme âgée

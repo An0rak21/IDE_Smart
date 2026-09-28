@@ -78,13 +78,23 @@ export default async function DashboardPage({ searchParams }: Props) {
       </section>
 
       <section aria-labelledby="modules" className="mt-10">
-        <h2 id="modules" className="font-display text-xl font-extrabold">Modules</h2>
+        <div className="flex items-center justify-between gap-3">
+          <h2 id="modules" className="font-display text-xl font-extrabold">Modules</h2>
+          {modules && modules.length > 0 ? (
+            <Link href="/modules" className="text-sm font-bold text-teal underline">Voir tous les modules</Link>
+          ) : null}
+        </div>
         {modules && modules.length > 0 ? (
           <ul className="mt-4 grid gap-3 sm:grid-cols-2">
             {modules.map((m) => (
-              <li key={m.id} className="rounded-xl border border-mint-line bg-white p-5">
-                <span className="text-sm font-bold text-teal">{m.semester}</span>
-                <p className="font-display text-lg font-extrabold">{m.title}</p>
+              <li key={m.id}>
+                <Link
+                  href={`/modules/${m.slug}`}
+                  className="block rounded-xl border border-mint-line bg-white p-5 transition-colors hover:border-ink"
+                >
+                  <span className="text-sm font-bold text-teal">{m.semester}</span>
+                  <p className="font-display text-lg font-extrabold">{m.title}</p>
+                </Link>
               </li>
             ))}
           </ul>

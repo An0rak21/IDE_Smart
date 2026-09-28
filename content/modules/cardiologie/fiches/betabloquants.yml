@@ -1,0 +1,61 @@
+slug: betabloquants
+title: Bêtabloquants
+classe: Bêtabloquants
+status: brouillon
+updated: 2026-09-28
+lesson: inhibiteurs-calciques-betabloquants
+molecules:
+  - dci: Bisoprolol
+    specialites: [CARDENSIEL®, DETENSIEL®]
+  - dci: Nébivolol
+    specialites: [TEMERIT®]
+  - dci: Métoprolol
+    specialites: [SELOKEN®, SELOZOK®]
+  - dci: Aténolol
+    specialites: [TENORMINE®]
+  - dci: Acébutolol
+    specialites: [SECTRAL®]
+  - dci: Propranolol
+    specialites: [AVLOCARDYL®]
+  - dci: Carvédilol
+    specialites: [KREDEX®]
+  - dci: Sotalol
+    specialites: [SOTALEX®]
+mecanisme: >-
+  Bloquent les récepteurs bêta 1 du cœur (effets chronotrope, inotrope, dromotrope et
+  bathmotrope négatifs, baisse de la rénine). Les non sélectifs bloquent aussi les bêta 2
+  (bronches, vaisseaux, foie).
+indications:
+  - HTA
+  - Angor stable, après un infarctus
+  - Insuffisance cardiaque à FE réduite (bisoprolol, carvédilol, métoprolol, nébivolol)
+  - Contrôle de la fréquence dans la fibrillation atriale
+  - Hyperthyroïdie, prévention de la migraine, tremblement essentiel, hypertension portale
+contre_indications:
+  - Asthme
+  - Bloc auriculo-ventriculaire de haut degré non appareillé
+  - Bradycardie importante
+effets_indesirables:
+  - Bradycardie, bloc auriculo-ventriculaire, hypotension
+  - Fatigue, extrémités froides, syndrome de Raynaud
+  - Bronchospasme
+  - Cauchemars, insomnie, troubles de l'érection
+  - Aggravation transitoire d'une insuffisance cardiaque à l'initiation
+surveillance:
+  - "FC et PA avant chaque prise : ne pas administrer et alerter selon les seuils prescrits"
+  - Dyspnée, sifflements
+  - Poids, œdèmes à l'initiation dans l'IC
+  - Glycémies du diabétique
+interactions:
+  - Vérapamil, diltiazem, digoxine, amiodarone, ivabradine (bradycardie)
+  - Insuline et sulfamides hypoglycémiants (hypoglycémie masquée)
+  - Adrénaline (moins efficace en cas d'anaphylaxie)
+education:
+  - Ne jamais arrêter brutalement (effet rebond)
+  - Signaler le traitement avant une anesthésie
+  - "Diabétique : les sueurs restent le signal d'hypoglycémie"
+  - "Collyres : comprimer l'angle interne de l'œil"
+a_retenir:
+  - Suffixe -olol
+  - FC et PA avant chaque prise
+  - Jamais d'arrêt brutal

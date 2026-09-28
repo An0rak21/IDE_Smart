@@ -1,0 +1,38 @@
+status: brouillon
+questions:
+  - ref: cardio-rap-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: rappels
+    prompt: Un médicament chronotrope négatif…
+    options:
+      - label: diminue la fréquence cardiaque
+        correct: true
+      - label: diminue la force de contraction
+      - label: ralentit la conduction auriculo-ventriculaire
+      - label: diminue l'excitabilité du myocarde
+    explanation: >-
+      Chronotrope se rapporte au temps, donc à la fréquence cardiaque. La force de contraction
+      correspond à l'effet inotrope, la conduction à l'effet dromotrope, l'excitabilité à l'effet
+      bathmotrope.
+
+  - ref: cardio-rap-002
+    version: 1
+    type: multiple
+    level: 2
+    free: true
+    lesson: rappels
+    prompt: Quelles classes diminuent la pression artérielle en agissant sur la volémie ?
+    options:
+      - label: Les diurétiques
+        correct: true
+      - label: Les gliflozines
+        correct: true
+      - label: Les IEC
+      - label: Les bêtabloquants
+    explanation: >-
+      Diurétiques, antagonistes de l'aldostérone, gliflozines et dérivés nitrés (par leur effet
+      veineux) agissent sur la volémie, donc la précharge. Les IEC agissent surtout sur les
+      résistances, les bêtabloquants sur la fréquence et la contractilité.

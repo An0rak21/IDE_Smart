@@ -1,0 +1,110 @@
+status: brouillon
+questions:
+  - ref: cardio-diur-001
+    version: 1
+    type: single
+    level: 1
+    free: true
+    lesson: diuretiques
+    prompt: Où agit le furosémide ?
+    options:
+      - label: Sur la branche ascendante de l'anse de Henlé
+        correct: true
+      - label: Sur le tube contourné distal
+      - label: Sur le tube collecteur
+      - label: Sur le tube contourné proximal
+    explanation: >-
+      Le furosémide est un diurétique de l'anse : il bloque le co-transport Na⁺/K⁺/2Cl⁻ de la
+      branche ascendante, qui réabsorbe environ 25 % du sodium filtré. D'où sa puissance.
+
+  - ref: cardio-diur-002
+    version: 1
+    type: true_false
+    level: 1
+    free: true
+    lesson: diuretiques
+    prompt: La spironolactone expose au risque d'hypokaliémie.
+    options:
+      - label: Vrai
+      - label: Faux
+        correct: true
+    explanation: >-
+      La spironolactone est un antagoniste de l'aldostérone, donc un diurétique épargneur de
+      potassium : elle expose au contraire à l'hyperkaliémie. Ce sont l'anse et les thiazidiques
+      qui font perdre le potassium.
+
+  - ref: cardio-diur-003
+    version: 1
+    type: multiple
+    level: 2
+    free: false
+    lesson: diuretiques
+    prompt: Quels effets indésirables sont communs aux diurétiques de l'anse et aux thiazidiques ?
+    options:
+      - label: Hypokaliémie
+        correct: true
+      - label: Hyperuricémie
+        correct: true
+      - label: Hypercalcémie
+      - label: Gynécomastie
+    explanation: >-
+      Les deux familles font baisser la kaliémie et augmenter l'uricémie. En revanche, l'anse fait
+      baisser la calcémie alors que les thiazidiques l'augmentent. La gynécomastie est propre à la
+      spironolactone.
+
+  - ref: cardio-diur-004
+    version: 1
+    type: single
+    level: 1
+    free: false
+    lesson: diuretiques
+    prompt: Pourquoi le furosémide IV doit-il être injecté lentement ?
+    options:
+      - label: Pour limiter le risque d'ototoxicité
+        correct: true
+      - label: Pour éviter une hyperkaliémie brutale
+      - label: Parce qu'il est veinotoxique
+      - label: Pour retarder le début de l'effet diurétique
+    explanation: >-
+      À forte dose et en injection rapide, le furosémide est ototoxique. L'effet diurétique
+      apparaît en 5 à 30 minutes : prévoir l'accès aux toilettes ou le bassin.
+
+  - ref: cardio-diur-005
+    version: 1
+    type: single
+    level: 1
+    free: false
+    lesson: diuretiques
+    prompt: Quel est l'indicateur quotidien le plus simple de l'efficacité d'un diurétique ?
+    options:
+      - label: Le poids, pris sur la même balance le matin
+        correct: true
+      - label: La fréquence cardiaque
+      - label: La température
+      - label: La glycémie capillaire
+    explanation: >-
+      Une perte de 1 kg correspond à environ 1 litre d'eau éliminé. Le poids reflète aussi une
+      rétention hydrosodée quand il augmente.
+
+  - ref: cardio-diur-006
+    version: 1
+    type: case
+    level: 3
+    free: false
+    lesson: diuretiques
+    context: >-
+      Mme L., 82 ans, est traitée par hydrochlorothiazide pour une HTA et par digoxine. Depuis
+      deux jours, elle se plaint de crampes dans les jambes et d'une grande fatigue. Elle a eu
+      des diarrhées cette semaine.
+    prompt: Quelle est votre première hypothèse, et que faites-vous ?
+    options:
+      - label: Une hypokaliémie, à risque de toxicité de la digoxine ; j'alerte le médecin pour un ionogramme
+        correct: true
+      - label: Une hyperkaliémie liée au thiazidique ; je propose de supprimer les aliments riches en potassium
+      - label: Des crampes liées à l'âge ; je propose des étirements
+      - label: Une déshydratation isolée ; je la fais boire et je réévalue le lendemain
+    explanation: >-
+      Le thiazidique et les diarrhées sont deux causes de perte de potassium. Les crampes et la
+      faiblesse évoquent une hypokaliémie, qui majore la toxicité de la digoxine et le risque de
+      troubles du rythme. Il faut alerter sans attendre pour un ionogramme et un ECG selon la
+      prescription.
