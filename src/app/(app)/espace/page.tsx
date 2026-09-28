@@ -66,6 +66,17 @@ export default async function DashboardPage({ searchParams }: Props) {
         </dl>
       </section>
 
+      <section aria-labelledby="calculs" className="mt-10">
+        <h2 id="calculs" className="font-display text-xl font-extrabold">Calculs de doses</h2>
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-4 rounded-xl border border-mint-line bg-white p-6">
+          <p className="text-ink-soft">
+            Débits de perfusion, seringue électrique, dilutions et doses selon le poids : des exercices sans fin,
+            corrigés étape par étape.
+          </p>
+          <Link href="/calculs" className="btn btn-primary">Commencer</Link>
+        </div>
+      </section>
+
       <section aria-labelledby="modules" className="mt-10">
         <h2 id="modules" className="font-display text-xl font-extrabold">Modules</h2>
         {modules && modules.length > 0 ? (
@@ -81,8 +92,8 @@ export default async function DashboardPage({ searchParams }: Props) {
           <div className="mt-4 rounded-xl border-2 border-dashed border-mint-line p-8">
             <p className="font-bold">Les premiers modules arrivent bientôt.</p>
             <p className="mt-1 text-ink-soft">
-              Cardiologie, hémostase, douleur et générateur de calculs de doses sont en préparation. Vous serez
-              prévenu par e-mail dès leur mise en ligne.
+              Cardiologie, hémostase et douleur sont en préparation. Vous serez prévenu par e-mail dès leur mise
+              en ligne.
             </p>
           </div>
         )}

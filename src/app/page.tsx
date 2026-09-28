@@ -60,7 +60,14 @@ export default function HomePage() {
             Fiches gratuites. Premium à {site.prices.monthly.label} {site.prices.monthly.period}, sans engagement.
           </p>
         </div>
-        <SyringeLabel />
+        <div>
+          <SyringeLabel />
+          <p className="mt-4 text-center">
+            <Link href="/connexion?mode=inscription&suite=/calculs" className="font-bold text-teal underline">
+              Essayer le générateur de calculs de doses
+            </Link>
+          </p>
+        </div>
       </section>
 
       <section aria-labelledby="contenu-titre" className="border-y border-mint-line">

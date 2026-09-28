@@ -1,6 +1,12 @@
 import Link from "next/link";
 
-export function AccountNav({ current, isAdmin }: { current: "espace" | "compte" | "admin"; isAdmin?: boolean }) {
+export function AccountNav({
+  current,
+  isAdmin,
+}: {
+  current: "espace" | "calculs" | "compte" | "admin";
+  isAdmin?: boolean;
+}) {
   const link = (href: string, key: typeof current, label: string) => (
     <Link
       href={href}
@@ -13,6 +19,7 @@ export function AccountNav({ current, isAdmin }: { current: "espace" | "compte" 
   return (
     <nav aria-label="Mon compte" className="flex flex-wrap items-center gap-1">
       {link("/espace", "espace", "Mon espace")}
+      {link("/calculs", "calculs", "Calculs de doses")}
       {link("/compte", "compte", "Compte et abonnement")}
       {isAdmin ? link("/admin", "admin", "Administration") : null}
       <form action="/deconnexion" method="post" className="ml-auto">
