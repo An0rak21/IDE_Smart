@@ -1,8 +1,8 @@
 // Réglages globaux du site. Le nom est provisoire.
 export const site = {
-  name: "PharmaIDE",
+  name: "IDE Smart",
   tagline: "La pharmacologie IFSI, de la fiche au calcul de dose",
-  contactEmail: "contact@example.fr",
+  contactEmail: "sebastien.saliques@gmail.com",
   prices: {
     monthly: { label: "2,99 €", period: "par mois" },
     // Proposition à valider : 10 mois d'année universitaire, remise d'un tiers environ

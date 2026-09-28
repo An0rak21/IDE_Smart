@@ -54,7 +54,7 @@ export default async function AdminPage() {
   return (
     <div className="mx-auto max-w-6xl px-5 py-10">
       <AccountNav current="admin" isAdmin />
-      <h1 className="mt-8 font-display text-3xl font-extrabold text-teal">Administration</h1>
+      <h1 className="mt-8 font-display text-3xl font-normal tracking-tight text-ink">Administration</h1>
 
       <dl className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
         {stats.map(([label, value]) => (

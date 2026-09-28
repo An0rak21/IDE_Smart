@@ -6,7 +6,7 @@ export const metadata: Metadata = { title: "Conditions d’utilisation" };
 
 export default function Page() {
   return (
-    <LegalPage title="Conditions générales d’utilisation" updated="[date]">
+    <LegalPage title="Conditions générales d’utilisation" updated="28/09/2026">
       <h2>Objet</h2>
       <p>
         {site.name} propose aux étudiants en soins infirmiers des fiches de révision, des QCM et des exercices de

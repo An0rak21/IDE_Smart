@@ -6,9 +6,9 @@ export const metadata: Metadata = { title: "Confidentialité" };
 
 export default function Page() {
   return (
-    <LegalPage title="Politique de confidentialité" updated="[date]">
+    <LegalPage title="Politique de confidentialité" updated="28/09/2026">
       <h2>Responsable du traitement</h2>
-      <p>[Prénom Nom], éditeur du site. Contact : {site.contactEmail}.</p>
+      <p>Sébastien SALIQUES, éditeur du site. Contact : {site.contactEmail}.</p>
       <h2>Données collectées</h2>
       <ul>
         <li>Compte : adresse e-mail, prénom, IFSI et semestre s’ils sont renseignés.</li>

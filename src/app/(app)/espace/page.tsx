@@ -31,7 +31,7 @@ export default async function DashboardPage({ searchParams }: Props) {
     <div className="mx-auto max-w-5xl px-5 py-10">
       <AccountNav current="espace" isAdmin={isAdminEmail(user.email)} />
 
-      <h1 className="mt-8 font-display text-3xl font-extrabold text-teal">
+      <h1 className="mt-8 font-display text-3xl font-normal tracking-tight text-ink">
         {profile?.first_name ? `Bonjour ${profile.first_name}` : "Bonjour"}
       </h1>
 

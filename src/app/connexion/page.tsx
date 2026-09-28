@@ -22,7 +22,7 @@ export default async function LoginPage({ searchParams }: Props) {
 
   return (
     <div className="mx-auto max-w-md px-5 py-16">
-      <h1 className="font-display text-3xl font-extrabold text-teal">
+      <h1 className="font-display text-3xl font-normal tracking-tight text-ink">
         {signup ? "Créer votre compte" : "Se connecter"}
       </h1>
       <p className="mt-2 text-ink-soft">

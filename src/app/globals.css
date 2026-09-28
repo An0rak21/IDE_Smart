@@ -1,19 +1,26 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #13262b;
-  --color-ink-soft: #4a5f63;
-  --color-teal: #0f4c55;
-  --color-teal-deep: #0a363d;
-  --color-mint: #dcefe8;
-  --color-mint-line: #b9d9ce;
-  --color-paper: #f5f8f7;
-  --color-signal: #f2c230;
-  --color-alert: #a8251c;
-  --color-ok: #1f6b45;
+  /* Palette sobre : crème chaud, encre profonde, accent laiton — esprit "papier académique" */
+  --color-ink: #1c1c1a;
+  --color-ink-soft: #6b6b62;
+  --color-teal: #1f3d37;
+  --color-teal-deep: #142722;
+  --color-mint: #f1efe6;
+  --color-mint-line: #e2ded1;
+  --color-paper: #faf9f4;
+  --color-signal: #ab8a54;
+  --color-alert: #9a3a2f;
+  --color-ok: #2f6b4a;
 
   --font-sans: "Atkinson Hyperlegible", system-ui, sans-serif;
-  --font-display: "Bricolage Grotesque", "Atkinson Hyperlegible", system-ui, sans-serif;
+  --font-display: "Newsreader", "Atkinson Hyperlegible", system-ui, serif;
+
+  /* Titres plus légers, plus proches d'un ouvrage relié que d'une affiche */
+  --font-weight-bold: 600;
+  --font-weight-extrabold: 500;
+
+  --tracking-tight: -0.01em;
 }
 
 html {
@@ -24,12 +31,17 @@ html {
 
 body {
   font-family: var(--font-sans);
-  line-height: 1.55;
+  line-height: 1.6;
+}
+
+.font-display {
+  letter-spacing: -0.01em;
+  font-style: normal;
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-signal);
-  outline-offset: 2px;
+  outline: 2px solid var(--color-teal);
+  outline-offset: 3px;
   border-radius: 4px;
 }
 
@@ -42,59 +54,64 @@ body {
   }
 }
 
-/* Boutons */
+/* Boutons : pastille sobre, sans relief appuyé */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   min-height: 2.75rem;
-  padding: 0 1.25rem;
-  border-radius: 0.5rem;
-  font-weight: 700;
+  padding: 0 1.5rem;
+  border-radius: 999px;
+  font-weight: 500;
+  font-size: 0.9375rem;
   white-space: nowrap;
-  transition: background-color 150ms, color 150ms;
+  transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, opacity 180ms ease;
 }
 .btn-primary {
-  background: var(--color-teal);
+  background: var(--color-ink);
   color: #fff;
 }
 .btn-primary:hover {
   background: var(--color-teal-deep);
 }
 .btn-secondary {
-  border: 1.5px solid var(--color-teal);
-  color: var(--color-teal);
+  border: 1px solid var(--color-mint-line);
+  color: var(--color-ink);
+  background: transparent;
 }
 .btn-secondary:hover {
+  border-color: var(--color-ink);
   background: var(--color-mint);
 }
 .btn-danger {
-  border: 1.5px solid var(--color-alert);
+  border: 1px solid var(--color-alert);
   color: var(--color-alert);
+  background: transparent;
 }
 .btn:disabled {
-  opacity: 0.6;
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
 .field {
   width: 100%;
   min-height: 2.75rem;
-  padding: 0 0.875rem;
-  border: 1.5px solid var(--color-mint-line);
-  border-radius: 0.5rem;
+  padding: 0 1rem;
+  border: 1px solid var(--color-mint-line);
+  border-radius: 0.75rem;
   background: #fff;
+  transition: border-color 150ms ease;
 }
 .field:focus {
-  border-color: var(--color-teal);
+  border-color: var(--color-ink);
   outline: none;
 }
 
 .prose-legal h2 {
   font-family: var(--font-display);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }

@@ -38,9 +38,10 @@ const semesters = [
 export default function HomePage() {
   return (
     <>
-      <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-16 pt-12 md:grid-cols-[1.1fr_1fr] md:pt-20">
+      <section className="mx-auto grid max-w-6xl items-center gap-16 px-5 pb-20 pt-16 md:grid-cols-[1.1fr_1fr] md:pt-24">
         <div>
-          <h1 className="max-w-xl font-display text-4xl font-extrabold leading-[1.08] text-teal sm:text-5xl">
+          <p className="font-display text-sm italic text-ink-soft">UE 2.11 — Pharmacologie et thérapeutiques</p>
+          <h1 className="mt-3 max-w-xl font-display text-4xl font-normal leading-[1.15] tracking-tight text-ink sm:text-5xl">
             Réviser la pharmacologie, du partiel au premier stage.
           </h1>
           <p className="mt-6 max-w-lg text-lg text-ink-soft">
@@ -62,15 +63,16 @@ export default function HomePage() {
         <SyringeLabel />
       </section>
 
-      <section aria-labelledby="contenu-titre" className="border-y border-mint-line bg-white">
-        <div className="mx-auto max-w-6xl px-5 py-16">
-          <h2 id="contenu-titre" className="max-w-2xl font-display text-3xl font-extrabold text-ink">
+      <section aria-labelledby="contenu-titre" className="border-y border-mint-line">
+        <div className="mx-auto max-w-6xl px-5 py-20">
+          <h2 id="contenu-titre" className="max-w-2xl font-display text-3xl font-normal tracking-tight text-ink">
             Tout ce qu’il faut pour réviser l’UE 2.11
           </h2>
-          <div className="mt-10 grid gap-10 md:grid-cols-3">
-            {features.map((f) => (
-              <div key={f.title} className="border-l-4 border-signal pl-5">
-                <h3 className="font-display text-lg font-extrabold">{f.title}</h3>
+          <div className="mt-12 grid gap-10 md:grid-cols-3">
+            {features.map((f, i) => (
+              <div key={f.title} className="border-t border-mint-line pt-5">
+                <span className="font-display text-sm text-signal">0{i + 1}</span>
+                <h3 className="mt-2 font-display text-lg font-medium text-ink">{f.title}</h3>
                 <p className="mt-2 text-ink-soft">{f.body}</p>
               </div>
             ))}
@@ -78,35 +80,37 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section aria-labelledby="programme-titre" className="mx-auto max-w-6xl px-5 py-16">
-        <h2 id="programme-titre" className="font-display text-3xl font-extrabold">
+      <section aria-labelledby="programme-titre" className="mx-auto max-w-6xl px-5 py-20">
+        <h2 id="programme-titre" className="font-display text-3xl font-normal tracking-tight text-ink">
           Le programme, semestre par semestre
         </h2>
         <p className="mt-3 max-w-2xl text-ink-soft">
           Les modules suivent le référentiel de formation. Les premiers arrivent bientôt : cardiologie, hémostase,
           douleur et calculs de doses.
         </p>
-        <ol className="mt-10 grid gap-4 md:grid-cols-3">
+        <ol className="mt-12 grid gap-4 md:grid-cols-3">
           {semesters.map((s) => (
-            <li key={s.code} className="rounded-xl border border-mint-line bg-mint/60 p-6">
-              <span className="font-display text-4xl font-extrabold text-teal">{s.code}</span>
-              <h3 className="mt-2 font-display text-lg font-extrabold">{s.title}</h3>
+            <li key={s.code} className="rounded-2xl border border-mint-line p-7">
+              <span className="font-display text-4xl font-normal text-teal">{s.code}</span>
+              <h3 className="mt-3 font-display text-lg font-medium text-ink">{s.title}</h3>
               <p className="mt-2 text-ink-soft">{s.items}</p>
             </li>
           ))}
         </ol>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5">
-        <div className="grid gap-6 rounded-2xl bg-teal px-8 py-12 text-white md:grid-cols-[2fr_1fr] md:items-center">
+      <section className="mx-auto max-w-6xl px-5 pb-24">
+        <div className="grid gap-6 rounded-2xl border border-mint-line bg-mint/50 px-8 py-14 md:grid-cols-[2fr_1fr] md:items-center">
           <div>
-            <h2 className="font-display text-3xl font-extrabold">Commencez par les fiches, gratuitement.</h2>
-            <p className="mt-3 max-w-xl text-white/85">
+            <h2 className="font-display text-3xl font-normal tracking-tight text-ink">
+              Commencez par les fiches, gratuitement.
+            </h2>
+            <p className="mt-3 max-w-xl text-ink-soft">
               Créez un compte en une minute avec votre e-mail ou votre compte Google. Vous pourrez essayer
               l’offre premium pendant {site.trialDays} jours, sans carte bancaire.
             </p>
           </div>
-          <Link href="/connexion?mode=inscription" className="btn bg-signal text-ink hover:bg-white md:justify-self-end">
+          <Link href="/connexion?mode=inscription" className="btn btn-primary md:justify-self-end">
             Créer mon compte gratuit
           </Link>
         </div>

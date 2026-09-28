@@ -42,16 +42,16 @@ export default async function PricingPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-5 py-16">
-      <h1 className="font-display text-4xl font-extrabold text-teal">Tarifs</h1>
+      <h1 className="font-display text-4xl font-normal tracking-tight text-ink">Tarifs</h1>
       <p className="mt-3 max-w-2xl text-lg text-ink-soft">
         Les fiches sont gratuites. L’offre premium ajoute l’entraînement illimité et le suivi complet. Essai de{" "}
         {site.trialDays} jours sans carte bancaire, résiliation en deux clics.
       </p>
 
       <div className="mt-10 grid gap-6 md:grid-cols-3">
-        <div className="rounded-xl border border-mint-line bg-white p-6">
-          <h2 className="font-display text-xl font-extrabold">Gratuit</h2>
-          <p className="mt-4 font-display text-4xl font-extrabold">0 €</p>
+        <div className="rounded-2xl border border-mint-line p-7">
+          <h2 className="font-display text-xl font-medium text-ink">Gratuit</h2>
+          <p className="mt-4 font-display text-4xl font-normal text-ink">0 €</p>
           <p className="mt-1 text-sm text-ink-soft">pour toujours</p>
           <div className="mt-6">
             {account ? (
@@ -62,16 +62,19 @@ export default async function PricingPage() {
           </div>
         </div>
 
-        <div className="rounded-xl border border-mint-line bg-white p-6">
-          <h2 className="font-display text-xl font-extrabold">Premium mensuel</h2>
-          <p className="mt-4 font-display text-4xl font-extrabold">{site.prices.monthly.label}</p>
+        <div className="rounded-2xl border border-mint-line p-7">
+          <h2 className="font-display text-xl font-medium text-ink">Premium mensuel</h2>
+          <p className="mt-4 font-display text-4xl font-normal text-ink">{site.prices.monthly.label}</p>
           <p className="mt-1 text-sm text-ink-soft">{site.prices.monthly.period}, sans engagement</p>
           <div className="mt-6">{cta("monthly", false)}</div>
         </div>
 
-        <div className="rounded-xl border-2 border-teal bg-white p-6 shadow-[5px_5px_0_var(--color-signal)]">
-          <h2 className="font-display text-xl font-extrabold">Premium annuel</h2>
-          <p className="mt-4 font-display text-4xl font-extrabold">{site.prices.annual.label}</p>
+        <div className="relative rounded-2xl border border-ink p-7">
+          <span className="absolute -top-3 left-7 rounded-full bg-ink px-3 py-1 text-xs font-medium text-white">
+            Recommandé
+          </span>
+          <h2 className="font-display text-xl font-medium text-ink">Premium annuel</h2>
+          <p className="mt-4 font-display text-4xl font-normal text-ink">{site.prices.annual.label}</p>
           <p className="mt-1 text-sm text-ink-soft">{site.prices.annual.period}, l’année universitaire complète</p>
           <div className="mt-6">{cta("annual", true)}</div>
         </div>
@@ -81,16 +84,16 @@ export default async function PricingPage() {
         <table className="w-full min-w-[34rem] border-collapse text-left">
           <caption className="sr-only">Comparaison des offres gratuite et premium</caption>
           <thead>
-            <tr className="border-b-2 border-ink">
-              <th scope="col" className="py-3 pr-4">Fonctionnalité</th>
-              <th scope="col" className="py-3 pr-4">Gratuit</th>
-              <th scope="col" className="py-3">Premium</th>
+            <tr className="border-b border-ink">
+              <th scope="col" className="py-3 pr-4 font-medium">Fonctionnalité</th>
+              <th scope="col" className="py-3 pr-4 font-medium">Gratuit</th>
+              <th scope="col" className="py-3 font-medium">Premium</th>
             </tr>
           </thead>
           <tbody>
             {rows.map((r) => (
               <tr key={r.label} className="border-b border-mint-line">
-                <th scope="row" className="py-3 pr-4 font-bold">{r.label}</th>
+                <th scope="row" className="py-3 pr-4 font-medium">{r.label}</th>
                 <td className="py-3 pr-4 text-ink-soft">{r.free}</td>
                 <td className="py-3">{r.premium}</td>
               </tr>

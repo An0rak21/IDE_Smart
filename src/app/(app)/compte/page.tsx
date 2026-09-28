@@ -35,7 +35,7 @@ export default async function AccountPage({ searchParams }: Props) {
   return (
     <div className="mx-auto max-w-3xl px-5 py-10">
       <AccountNav current="compte" isAdmin={isAdminEmail(user.email)} />
-      <h1 className="mt-8 font-display text-3xl font-extrabold text-teal">Compte et abonnement</h1>
+      <h1 className="mt-8 font-display text-3xl font-normal tracking-tight text-ink">Compte et abonnement</h1>
       {params.erreur === "suppression" ? (
         <p role="alert" className="mt-4 rounded-lg border border-alert/40 bg-alert/5 p-4 text-sm text-alert">
           Le compte n’a pas pu être supprimé. Réessayez, ou écrivez-nous si le problème continue.
